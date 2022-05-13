@@ -80,7 +80,7 @@ input {
     margin: 0;
   }
 
-  .toggle input:checked + .menu a {
+  input[type=checkbox]:checked ~ div  {
     display: block;
   }
 }
