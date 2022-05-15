@@ -58,11 +58,13 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  background-color: black;
-  color: white;
+  background-color: #d9ffff;
+  color: black;
   width: 10%;
   padding: 10px;
   cursor: pointer;
+  font-weight: 100;
+  font-style: bold;
 }
 
 .red {
@@ -106,7 +108,7 @@ input {
   display: none;
 }
 
-@media (max-width: 590px) {
+@media (max-width: 712px) {
   .menu {
     text-align: center;
 
@@ -119,14 +121,22 @@ input {
   .brand {
     width: 350px;
   }
-
+  .buy-now {
+    padding: 10px;
+    margin: 35px;
+    font-size: 01rem;
+    background-color: #d9ffff;
+    width: 30%;
+    color: red;
+    text-decoration: bold;
+  }
   .shoe-1 {
     width: 99%;
   }
 
   .shoe-1-info {
     width: 99%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   img {
@@ -135,10 +145,10 @@ input {
   }
 
   .shoe-info {
-    width: 59%;
+    width: 99%;
     font-size: 1.1rem;
-    padding: 5px 3px;
-    margin: 15px;
+    margin: 3px 2px 2px;
+    padding: 1px 2px 3px;
   }
 
   label {
@@ -166,8 +176,7 @@ input {
     display: block;
   }
   .shoe-1 img {
-    width: 10rem;
-    margin: 10px;
+    width: 30vw;
   }
   .brand h1 {
     font-size: 5.9vw;
